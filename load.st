@@ -8,13 +8,13 @@ IceCredentialsProvider sshCredentials
 
 EpMonitor current disable.
 [
-    "Replace the code below with your own repository."
+
     Metacello new
-        onWarningLog;
-        baseline: 'GlamorousDockerSetup';
-        onConflictUseIncoming;
-        repository: 'github://feenkcom/glamorous-docker-setup/src';
-        load.
+      baseline: #TrackAlong;
+      repository: 'github://thams/trackalong';
+      onConflictUseIncoming;
+      load.
+
 ] ensure: [ EpMonitor current enable ].
 
 

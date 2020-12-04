@@ -1,4 +1,4 @@
 "Server startup code should be placed below."
-Transcript crShow: (40 + 2).
-"Obviosly, remove the next line if you're starting a server, this is just a template app."
+Transcript crShow: ('Attempting to run TrackAlong').
+Transcript crShow: (TrackAlong prove).
 Smalltalk snapshot: false andQuit: true.
